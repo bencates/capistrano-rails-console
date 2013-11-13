@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+`capistrano-rails-console` provides several new shortcuts
+
+* `cap <stage> rails:console` (alias `rails:c`): Open an interactive
+  rails console on one of your remote servers
+* `cap <stage> rails:dbconsole` (alias `rails:db`): Open an interactive
+  database console on one of your remote servers
 
 ## Contributing
 

@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "capistrano-rails-console"
   spec.version       = Capistrano::Rails::Console::VERSION
   spec.authors       = ["Ben Cates"]
-  spec.email         = ["ben@ideum.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.email         = ["ben.cates@gmail.com"]
+  spec.description   = %q{Remote rails console}
+  spec.summary       = %q{Enables rails console and related commands to be run on capistrano-managed servers}
+  spec.homepage      = "https://github.com/bencates/capistrano-rails-console"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+
+  spec.add_dependency "capistrano", "~> 3.0"
 end
